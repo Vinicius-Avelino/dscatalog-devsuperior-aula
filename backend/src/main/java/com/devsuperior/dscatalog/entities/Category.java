@@ -16,11 +16,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_category")
 public class Category implements Serializable{
-
-	/**
-	 * 
-	 */
-	
 	//Serializable é um padrão para que o objeto possa ser convertido em bites, para passar em rede..
 	private static final long serialVersionUID = 1L;
 	
